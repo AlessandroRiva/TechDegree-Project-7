@@ -396,13 +396,14 @@ form textarea {
     }
 
     .background-header {
-        height: 300px;
+        height: 60px;
     }
 
     header {
+        grid-area: "header";
         width: 95%;
     }
-    .main-nav {
+    nav {
         position: relative;
         width: 20%;
         height: 100vh;
