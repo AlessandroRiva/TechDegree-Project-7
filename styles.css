@@ -58,7 +58,11 @@ circle {
     cursor: pointer;
 }
 
-svg:hover {
+#Layer_1:hover {
+    fill: rgb(76, 77, 111);
+}
+
+.st0:hover {
     fill: rgb(76, 77, 111);
 }
 
