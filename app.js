@@ -32,6 +32,7 @@ let trafficData = new Chart (chart1, {
     animation: {
         duration: 0
     },
+    options : {
     scales: {
         yAxes: [{
             ticks: {
@@ -43,6 +44,7 @@ let trafficData = new Chart (chart1, {
         display: false
     }
     }
+}
 );
 
 const dailyCanvas = document.getElementById("daily-chart");
@@ -92,6 +94,7 @@ const mobileData = new Chart (mobileCanvas, {
         '#51B6C8'
         ]
      }]},
+     options: {
         legend: {
             position: 'right',
             labels: {
@@ -99,6 +102,7 @@ const mobileData = new Chart (mobileCanvas, {
                 fontStyle: 'bold'
         }
     }
+}
 });
 
 const user = document.getElementById("userField");
