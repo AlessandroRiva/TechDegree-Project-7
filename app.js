@@ -1,17 +1,17 @@
-const alert = document.getElementById("alert");
+const notification = document.getElementById("notification");
 // create the html for the banner
-alert.innerHTML =
+notification.innerHTML =
 `
-<div class="alert-banner">
+<div class="notification-banner">
 <p><strong>Alert:</strong> You have <strong>6</strong> overdue tasks
 to complete</p>
-<p class="alert-banner-close">x</p>
+<p class="notification-banner-close">x</p>
 </div> `
 
-alert.addEventListener('click', e => {
+notification.addEventListener('click', e => {
     const element = e.target;
-    if (element.classList.contains("alert-banner-close")) {
-    alert.style.display = "none"
+    if (element.classList.contains("notification-banner-close")) {
+    notification.style.display = "none"
     }
 });
 let chart1 = document.getElementById('traffic-chart').getContext('2d');
