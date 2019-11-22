@@ -56,6 +56,7 @@ circle {
     margin: auto;
     fill: white;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #Layer_1:hover {
@@ -158,6 +159,7 @@ h2 {
 
 .notification-banner-close {
     margin-left: auto;
+    cursor: pointer;
 }
 
 .traffic {
@@ -442,6 +444,10 @@ form textarea {
     width: 95%;
     background-color: rgb(240, 240, 240);
     border: none;
+}
+
+button {
+    cursor: pointer;
 }
 
 .settings-button {
