@@ -129,14 +129,17 @@ main {
 }
 
 .search-background .main-header-search {
-    background-color: white;
     width: 80%;
     border-radius: 5px;
     padding: 0 5px;
 }
 
 .main-header-search input {
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
     width: 100%;
+    border: none;
 }
 
 h2 {
@@ -537,6 +540,16 @@ button {
     #dashboard {
         border-bottom: none;
         border-left: 5px rgb(156, 222, 139) solid;
+    }
+
+    .search-background .main-header-search {
+        width: 30%;
+        margin-left: auto;
+        margin-right: 30px;
+    }
+
+    .main-header-search input {
+        width: 100%;
     }
 
     .traffic,
